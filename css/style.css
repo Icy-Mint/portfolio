@@ -101,6 +101,12 @@ a:hover { color: var(--mint-500); }
   color: var(--mint-500);
 }
 
+.brand-mark line {
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+
 .site-nav {
   display: flex;
   align-items: center;
