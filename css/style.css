@@ -23,8 +23,8 @@
   --line: #E8D9A3;
   --line-deep: #D1B86C;
 
-  --dark: #1E4225;
-  --dark-soft: #DCE9C9;
+  --dark: #241C12;
+  --dark-soft: #E8DCC3;
   --dark-line: rgba(255, 255, 255, 0.14);
 
   --font-display: 'Fraunces', 'Georgia', serif;
@@ -90,7 +90,7 @@ p { color: var(--ink-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(18, 32, 24, 0.92);
+  background: rgba(36, 28, 18, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--dark-line);
 }
