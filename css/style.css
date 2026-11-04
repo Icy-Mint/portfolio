@@ -115,7 +115,7 @@ p { color: var(--ink-soft); }
 .brand-mark {
   width: 26px;
   height: 26px;
-  color: var(--marker);
+  color: var(--mint);
 }
 
 .brand-mark line {
@@ -148,7 +148,7 @@ p { color: var(--ink-soft); }
   bottom: 0;
   width: 0;
   height: 1px;
-  background: var(--marker);
+  background: var(--mint);
   transition: width 0.25s ease;
 }
 
@@ -160,8 +160,8 @@ p { color: var(--ink-soft); }
 
 .nav-cta {
   font-family: var(--font-mono) !important;
-  color: var(--marker) !important;
-  border: 1px solid var(--marker);
+  color: var(--mint) !important;
+  border: 1px solid var(--mint);
   padding: 6px 14px;
   border-radius: var(--radius);
 }
@@ -169,7 +169,7 @@ p { color: var(--ink-soft); }
 .nav-cta::after { display: none; }
 
 .nav-cta:hover {
-  background: var(--marker);
+  background: var(--mint);
   color: var(--dark) !important;
 }
 
@@ -227,7 +227,7 @@ p { color: var(--ink-soft); }
   font-size: 0.78rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--marker);
+  color: var(--mint);
   margin-bottom: 22px;
 }
 
@@ -239,7 +239,7 @@ p { color: var(--ink-soft); }
   color: #FBF3DD;
 }
 
-.hero-title em { color: var(--marker); font-style: italic; }
+.hero-title em { color: var(--mint); font-style: italic; }
 
 .hero-specs {
   display: flex;
@@ -323,7 +323,7 @@ p { color: var(--ink-soft); }
   transition: color 0.2s ease;
 }
 
-.focus-row:hover .focus-num { color: var(--marker-deep); }
+.focus-row:hover .focus-num { color: var(--mint-deep); }
 
 .focus-body h3 {
   font-size: 1.15rem;
