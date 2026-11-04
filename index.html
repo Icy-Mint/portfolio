@@ -346,6 +346,9 @@
             </div>
             <!-- honeypot field for basic spam filtering -->
             <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+            <!-- identifies which site/app this submission came from, since the
+                 same Apps Script endpoint can be reused across multiple apps -->
+            <input type="hidden" name="source" value="icy-mint-portfolio">
             <button type="submit" class="btn btn-primary">Send Message →</button>
             <p class="form-status" id="form-status" role="status"></p>
           </form>
