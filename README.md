@@ -2,4 +2,4 @@
 
 This repository serves as my personal portfolio website.
 
-🔗 https://icy-mint.github.io/portfolio/
+🔗 https://icy-mint.github.io/Icy-Mint/
