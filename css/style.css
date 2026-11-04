@@ -1,30 +1,30 @@
 /* ==========================================================================
-   Icy-Mint — v6: same blueprint/spec-sheet layout as v1, retinted. Not a
-   winter theme — a mint leaf in hot summer sun: sun-warmed cream, vivid
-   leaf green, and a marigold accent instead of cool ink and pale yellow.
+   Icy-Mint — v6: same blueprint/spec-sheet layout as v1, retinted around
+   one confident true-green accent (not yellow-shifted, so it doesn't blend
+   into the warm paper/dark family) plus a rare, muted terracotta touch.
    Type: Fraunces (display) / Space Mono (labels, numerals) / Inter (body)
    ========================================================================== */
 
 :root {
-  --paper: #FBF3DD;
-  --paper-deep: #F4E6B8;
-  --card: #FFFCF2;
-  --ink: #2B2414;
+  --paper: #FAF2DE;
+  --paper-deep: #F2E3B6;
+  --card: #FFFCF4;
+  --ink: #241E12;
   --ink-soft: #6B5D3F;
   --ink-faint: #A9977A;
 
-  --mint: #8FCB4E;
-  --mint-deep: #5E8F2A;
-  --mint-pale: #E8F3D3;
+  --mint: #1FA878;
+  --mint-deep: #126B4C;
+  --mint-pale: #D2F0E2;
 
-  --marker: #F2A63D;
-  --marker-deep: #C2730F;
+  --marker: #D9772E;
+  --marker-deep: #A85A1E;
 
   --line: #E8D9A3;
   --line-deep: #D1B86C;
 
-  --dark: #241C12;
-  --dark-soft: #E8DCC3;
+  --dark: #1C160F;
+  --dark-soft: #E7DCC2;
   --dark-line: rgba(255, 255, 255, 0.14);
 
   --font-display: 'Fraunces', 'Georgia', serif;
@@ -90,7 +90,7 @@ p { color: var(--ink-soft); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(36, 28, 18, 0.92);
+  background: rgba(28, 22, 15, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--dark-line);
 }
