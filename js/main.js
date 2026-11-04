@@ -1,25 +1,3 @@
-// Typewriter effect for the intro heading
-const typewriterEl = document.getElementById('typewriter');
-const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-if (typewriterEl) {
-  const text = "Hi, I'm Icy-Mint.";
-
-  if (prefersReducedMotion) {
-    typewriterEl.textContent = text;
-  } else {
-    let i = 0;
-    const typeNext = () => {
-      if (i < text.length) {
-        typewriterEl.textContent += text.charAt(i);
-        i++;
-        setTimeout(typeNext, 60);
-      }
-    };
-    typeNext();
-  }
-}
-
 // Mobile nav toggle
 const navToggle = document.getElementById('nav-toggle');
 const siteNav = document.getElementById('site-nav');
@@ -35,6 +13,28 @@ siteNav.querySelectorAll('a').forEach((link) => {
     navToggle.setAttribute('aria-expanded', 'false');
   });
 });
+
+// Highlight the nav link for whichever section is currently in view
+const navLinks = Array.from(siteNav.querySelectorAll('a[data-nav]'));
+const sections = navLinks
+  .map((link) => document.getElementById(link.dataset.nav))
+  .filter(Boolean);
+
+if ('IntersectionObserver' in window && sections.length) {
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach((link) => {
+          link.classList.toggle('is-active', link.dataset.nav === entry.target.id);
+        });
+      });
+    },
+    { rootMargin: '-40% 0px -55% 0px' }
+  );
+
+  sections.forEach((section) => observer.observe(section));
+}
 
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();
