@@ -1,28 +1,30 @@
 /* ==========================================================================
-   Icy-Mint — paper & ink, with a mint signature and a marker-yellow accent.
+   Icy-Mint — v6: same blueprint/spec-sheet layout as v1, retinted. Not a
+   winter theme — a mint leaf in hot summer sun: sun-warmed cream, vivid
+   leaf green, and a marigold accent instead of cool ink and pale yellow.
    Type: Fraunces (display) / Space Mono (labels, numerals) / Inter (body)
    ========================================================================== */
 
 :root {
-  --paper: #F5F1E7;
-  --paper-deep: #ECE5D3;
-  --card: #FBF9F3;
-  --ink: #15231D;
-  --ink-soft: #4C5B52;
-  --ink-faint: #8C9A8F;
+  --paper: #FBF3DD;
+  --paper-deep: #F4E6B8;
+  --card: #FFFCF2;
+  --ink: #2B2414;
+  --ink-soft: #6B5D3F;
+  --ink-faint: #A9977A;
 
-  --mint: #2B8F6F;
-  --mint-deep: #15503D;
-  --mint-pale: #C9E3D5;
+  --mint: #2FAE5B;
+  --mint-deep: #1C7A3E;
+  --mint-pale: #D6F0DC;
 
-  --marker: #F2C230;
-  --marker-deep: #B9860A;
+  --marker: #F2A63D;
+  --marker-deep: #C2730F;
 
-  --line: #D8CEB6;
-  --line-deep: #B9AD8C;
+  --line: #E8D9A3;
+  --line-deep: #D1B86C;
 
-  --dark: #122018;
-  --dark-soft: #cfd8d0;
+  --dark: #1E4225;
+  --dark-soft: #DCE9C9;
   --dark-line: rgba(255, 255, 255, 0.14);
 
   --font-display: 'Fraunces', 'Georgia', serif;
@@ -107,7 +109,7 @@ p { color: var(--ink-soft); }
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.15rem;
-  color: #F5F1E7;
+  color: #FBF3DD;
 }
 
 .brand-mark {
@@ -154,7 +156,7 @@ p { color: var(--ink-soft); }
 .site-nav a.is-active::after { width: 100%; }
 
 .site-nav a:hover,
-.site-nav a.is-active { color: #F5F1E7; }
+.site-nav a.is-active { color: #FBF3DD; }
 
 .nav-cta {
   font-family: var(--font-mono) !important;
@@ -184,7 +186,7 @@ p { color: var(--ink-soft); }
 .nav-toggle span {
   width: 22px;
   height: 2px;
-  background: #F5F1E7;
+  background: #FBF3DD;
   border-radius: 2px;
 }
 
@@ -192,7 +194,7 @@ p { color: var(--ink-soft); }
 .hero {
   position: relative;
   background: var(--dark);
-  color: #F5F1E7;
+  color: #FBF3DD;
   padding: 96px 0 70px;
   overflow: hidden;
   background-image:
@@ -234,7 +236,7 @@ p { color: var(--ink-soft); }
   font-weight: 500;
   max-width: 920px;
   letter-spacing: -0.01em;
-  color: #F5F1E7;
+  color: #FBF3DD;
 }
 
 .hero-title em { color: var(--marker); font-style: italic; }
@@ -272,7 +274,7 @@ p { color: var(--ink-soft); }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #F5F1E7;
+  color: #FBF3DD;
 }
 
 .hero-github svg { width: 15px; height: 15px; fill: currentColor; }
@@ -745,7 +747,7 @@ p { color: var(--ink-soft); }
   align-items: center;
   gap: 8px;
   font-weight: 700;
-  color: #F5F1E7;
+  color: #FBF3DD;
 }
 
 .footer-link svg { width: 15px; height: 15px; fill: currentColor; }
