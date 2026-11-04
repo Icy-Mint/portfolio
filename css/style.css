@@ -118,10 +118,12 @@ p { color: var(--ink-soft); }
   color: var(--mint);
 }
 
-.brand-mark line {
+.brand-mark path {
+  fill: none;
   stroke: currentColor;
   stroke-width: 3;
   stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .site-nav {
