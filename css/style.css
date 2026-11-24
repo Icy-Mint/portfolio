@@ -239,6 +239,7 @@ p { color: var(--ink-soft); }
   max-width: 920px;
   letter-spacing: -0.01em;
   color: #FBF3DD;
+  text-wrap: balance;
 }
 
 .hero-title em { color: var(--mint); font-style: italic; }
