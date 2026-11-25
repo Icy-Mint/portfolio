@@ -314,7 +314,10 @@ p { color: var(--ink-soft); }
   padding: 26px 0;
   border-bottom: 1px solid var(--line);
   transition: border-color 0.2s ease;
+  list-style: none;
 }
+
+.focus-row::marker { content: none; }
 
 .focus-row:hover { border-bottom-color: var(--mint); }
 
